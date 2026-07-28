@@ -1,16 +1,53 @@
-# React + Vite
+# DeviX-task3: College Management Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+This project is a fundamental and multi-role College Management Web Application developed as part of the DeviX Solutions Frontend Internship Program 2026. It features separate, protected dashboard experiences for Admins, Faculty, and Students to handle core academic operations. 
 
-Currently, two official plugins are available:
+## Tech Stack
+*   **Frontend Framework:** React JS
+*   **Routing:** React Router v6
+*   **State Management:** Context API
+*   **Styling:** Tailwind CSS
+*   **Backend/Database:** Firebase or JSON Server
+*   **Data Visualization:** Recharts or Chart.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Core Features
 
-## React Compiler
+### Authentication & Routing
+*   Three distinct user roles: Admin, Faculty, and Student[cite: 1].
+*   Role-based protected routing ensuring secure access control[cite: 1].
+*   Sign-up flow for new students, assigning department, year, and roll number[cite: 1].
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Admin Dashboard
+*   Manage users (Students, Faculty, Staff)[cite: 1].
+*   Display platform statistics (total users, departments)[cite: 1].
+*   Add, edit, or delete subjects, departments, announcements, and the academic calendar[cite: 1].
 
-## Expanding the ESLint configuration
+### Faculty Dashboard
+*   View assigned subjects and corresponding student lists[cite: 1].
+*   Mark daily attendance for respective classes[cite: 1].
+*   Enter and update student academic marks and grades[cite: 1].
+*   View performance analytics for the class[cite: 1].
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Student Dashboard
+*   View personal profile information, attendance percentage, academic marks, and CGPA[cite: 1].
+*   Download hall tickets and fee receipts[cite: 1].
+*   View personal timetable and examination schedules[cite: 1].
+
+### Shared Modules
+*   Global Notice Board accessible to all roles with category filters (Exam, Event, General)[cite: 1].
+*   Responsive sidebar navigation featuring a mobile hamburger menu[cite: 1].
+*   Graphical charts for visualizing attendance and academic results[cite: 1].
+
+## Prerequisites
+Before you begin, ensure you have the following installed on your local machine:
+*   [Node.js](https://nodejs.org/) (v16.x or higher)
+*   npm (Node Package Manager)
+*   Git
+
+## Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/DeviX-task3.git](https://github.com/your-username/DeviX-task3.git)
+   cd DeviX-task3
