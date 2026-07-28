@@ -1,0 +1,68 @@
+{
+  "departments": [
+    { "id": "cs", "name": "Computer Science" },
+    { "id": "me", "name": "Mechanical Engineering" },
+    { "id": "ec", "name": "Electronics" }
+  ],
+  "subjects": [
+    { "id": "algorithms", "name": "Algorithms", "department": "Computer Science" },
+    { "id": "dbms", "name": "Database Systems", "department": "Computer Science" },
+    { "id": "thermodynamics", "name": "Thermodynamics", "department": "Mechanical Engineering" }
+  ],
+  "notices": [
+    { "id": "notice-1", "title": "Exam registration opens", "category": "Exam", "summary": "Register for the semester exams by next Friday." },
+    { "id": "notice-2", "title": "Campus career fair", "category": "Event", "summary": "Employers from top companies will visit campus next week." },
+    { "id": "notice-3", "title": "Library extended hours", "category": "General", "summary": "The library is open until 10 PM through the end of the semester." }
+  ],
+  "calendar": [
+    { "id": "cal-1", "title": "Holiday: Independence Day", "date": "2026-08-15" },
+    { "id": "cal-2", "title": "Internal assessment week", "date": "2026-09-05" }
+  ],
+  "students": [
+    {
+      "id": "s-1001",
+      "role": "student",
+      "name": "Nina Patel",
+      "email": "nina.patel@college.edu",
+      "password": "student123",
+      "department": "Computer Science",
+      "year": "Third Year",
+      "roll": "CS3001",
+      "assignedSubjects": ["Algorithms", "Database Systems", "Operating Systems"],
+      "attendanceRecords": {
+        "Algorithms": { "present": 17, "total": 20 },
+        "Database Systems": { "present": 18, "total": 20 },
+        "Operating Systems": { "present": 16, "total": 20 }
+      },
+      "marks": { "Algorithms": 78, "Database Systems": 84, "Operating Systems": 81 },
+      "cgpa": 8.4,
+      "timetable": [
+        { "day": "Monday", "subject": "Algorithms", "time": "10:00 AM" },
+        { "day": "Wednesday", "subject": "Database Systems", "time": "1:00 PM" },
+        { "day": "Friday", "subject": "Operating Systems", "time": "11:00 AM" }
+      ],
+      "examSchedule": [
+        { "date": "2026-09-20", "subject": "Algorithms" },
+        { "date": "2026-09-22", "subject": "Database Systems" }
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "f-1001",
+      "role": "faculty",
+      "name": "Dr. Amar Joshi",
+      "email": "amar.joshi@college.edu",
+      "password": "faculty123",
+      "department": "Computer Science",
+      "assignedSubjects": ["Algorithms", "Software Engineering"],
+      "classStudents": ["s-1001"]
+    }
+  ],
+  "announcements": [
+    { "id": "ann-1", "title": "New lab schedule", "content": "The lab schedule for Computer Science students has been updated." }
+  ],
+  "staff": [
+    { "id": "st-1001", "name": "Ms. Riya Sharma", "role": "Office Administrator" }
+  ]
+}
